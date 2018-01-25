@@ -82,7 +82,7 @@
 
                     <li>
                         <a href="{{route('list-client')}}">
-                            <span class="glyphicon glyphicon-tags"></span> List Appraisals </a>
+                            <span class="glyphicon glyphicon-tags"></span> List of Appraisals </a>
                     </li>
                 </ul>
             </li>
