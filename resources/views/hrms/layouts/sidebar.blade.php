@@ -67,6 +67,26 @@
                 </ul>
             </li>
         @endif
+        @if(\Auth::user()->isAdmin || \Auth::user()->isHR() || \Auth::user()->isManager())
+            <li>
+                <a class="accordion-toggle" href="/dashboard">
+                    <span class="fa fa-user"></span>
+                    <span class="sidebar-title">Appraisals</span>
+                    <span class="caret"></span>
+                </a>
+                <ul class="nav sub-nav">
+                    <li>
+                        <a href="{{route('add-client')}}">
+                            <span class="glyphicon glyphicon-tags"></span> Add Appraisal </a>
+                    </li>
+
+                    <li>
+                        <a href="{{route('list-client')}}">
+                            <span class="glyphicon glyphicon-tags"></span> List Appraisals </a>
+                    </li>
+                </ul>
+            </li>
+        @endif
 
         <li>
             <a class="accordion-toggle" href="/dashboard">

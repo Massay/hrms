@@ -480,8 +480,8 @@
         <footer id="content-footer" class="affix">
             <div class="row">
                 <div class="col-md-6">
-                    <span class="footer-legal">KANAK © 2016 All rights reserved. By <a
-                                href="http://www.kanakmanjari.com/" target="_blank">Kanak Manjari</a></span>
+                    {{-- <span class="footer-legal">KANAK © 2016 All rights reserved. By <a
+                                href="http://www.kanakmanjari.com/" target="_blank">Kanak Manjari</a></span> --}}
                 </div>
                 <div class="col-md-6 text-right">
                     <span class="footer-meta"></span>
